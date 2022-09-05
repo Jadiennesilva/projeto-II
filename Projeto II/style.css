@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bordex-box;
+}
+
+.tela1{
+    background-image: url("IMG 1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.jade{
+    /* width: 100%;
+    display: inline-block;
+    background-color: white;
+    opacity: 0.5;
+    background-size: cover;
+    position: fixed;
+    z-index:2;
+    display: grid; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed; 
+    width: 100%; 
+    height: 50px; 
+    background-color: white;
+    z-index: 1;
+    justify-items: end;
+
+}
+
+.jade img
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    
+}
+
+.divlogo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    
+}
+
+.botoesmenu
+{
+    display: grid;
+    text-align: right;
+    grid-template-columns: 100px 100px 100px 100px;
+    z-index: 1;
+    
+   
+}
+
+.jade.f{
+    width: 100%;
+    width: 50%;
+    background-color: black;
+    top: 25%;
+}
+
+.jade ul{ 
+    list-style: none;
+    text-align: right;
+    padding: 15px;
+    z-index: 1;
+}
+
+.jade ul li{
+    display: inline;
+}
+
+.jade ul li a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 12px;
+    
+}
+.jade ul li a :hover{
+    background-color: black;
+}
+
+.logo {
+    display: grid; 
+    background-image: url("brand.svg");
+    background-size: cover;
+    height: 08vh;
+    position: fixed;
+    left: 60px;
+    top: 5px;
+    z-index: 3;
+}
+
+.img1 {
+    position: relative;
+}
+
+.img1 img{
+    width: 100%;
+    height: 100vh;
+}
+  
+#image {
+    position: absolute;
+}
+  
+.botao1{
+    display: grid;
+    height: 90vh;
+    gap: 10px;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+
+
+
+#texto {
+    color: white;
+
+    font-size: 50px;
+    
+}
+
+.button{
+
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+
+
+    font-size: 30px;
+    
+    padding:1rem;
+    text-decoration: none;
+
+}
+
+
+.tela2{ 
+
+    padding-top: 50px;
+    background-color: #e9e9e9;
+    text-decoration: none;
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    column-gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 150px;
+}
+
+
+
+
+
+
+.caixa1{
+    background-color: #e05d77;
+    width: 600px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+
+.texto2{
+    color: black;
+    height: 50px;
+    padding-left: 28px;
+    
+
+
+}
+
+
+
+.texto3{
+    color: black;
+    height: 50px;
+    grid-row: 10px;
+
+
+}
+
+
+.imagem{
+    align-self: center;
+    justify-content: center;
+     display: flex;
+     height: 18,75rem;
+     width: 70%;
+     border-radius: 25px;
+
+}
+
+
+
+.tela3{
+
+    padding-bottom: 5rem;
+    background-color : #ffffff ;
+    text-decoration: none;
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    height: 400px;
+    padding-left: 20px;
+    
+
+}
+
+
+.conteudo-1{
+    
+height: 80vh;
+display: grid;
+width: 100vw;
+grid-template-areas: 
+"J1 J1 . ."
+"a1 k1 n1 s1"
+"a1 k1 n1 s1"
+"a1 k1 n1 s1"
+"a1 k1 n1 s1"
+"a1 k1 n1 s1"
+
+;
+gap: 6px 1px;
+
+
+}
+
+.cx-2{
+    background-color: #e05d77;
+    grid-area: J1;
+    font-size: 40px;
+    height: 9vh;
+    width: 97%;
+    padding-left: 20px;
+     
+}
+
+.cx-3{
+    background-color: #ffffff;
+    grid-area: a1;
+
+}
+
+.imagem4 img{
+    width: 80%;
+    height: 10rem;
+}
+
+.frase6{
+
+
+    color: black;
+    height: 50px;
+    grid-row: 10px;
+    font-size: 35px;
+   
+}
+
+
+.texto6{
+    color: black;
+    height: 50px;
+    
+}
+
+
+
+
+.cx-4{
+    background-color: #ffffff ;
+    grid-area: k1;
+}
+
+.imagem5 IMG{
+    width: 80%;
+    height: 10rem;
+}
+
+.frase7{
+    color: black;
+    height: 50px;
+    grid-row: 10px;
+    font-size: 35px;    
+}
+
+.texto7{
+    color: black;
+    height: 50px;
+}
+
+.cx-5{
+    background-color: #ffffff;
+    grid-area: n1;
+    
+}
+
+.imagem6 img{
+    width: 80%;
+    height: 10rem;
+
+
+}
+
+.frase8{
+    color: black;
+    height: 50px;
+    grid-row: 10px;
+    font-size: 35px;
+
+}
+
+
+.texto8{
+    color: black;
+    height: 50px;    
+}
+
+
+.cx-6{
+    background-color: #ffffff ;
+    grid-area: s1;
+    width: 100%;
+  
+  
+    
+}
+
+.imagem7 img{
+    width: 80%;
+    height: 10rem;
+}
+
+.frase9{
+    color: black;
+    height: 50px;
+    grid-row: 10px;
+    font-size: 35px;
+}
+
+
+.texto9{
+    color: black;
+    height: 50px;    
+}
+
+
+
+
+.tela4{
+    padding-top: 50px;
+    background-color: #e9e9e9;
+    text-decoration: none;
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    height: 67vh;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 150px;
+}
+
+.referencia{
+        background-color:  #e05d77;  
+        width: 95%;
+        grid-template-columns: auto;
+        height: 50px;
+        padding-left: 20px;
+        grid-area: "J1 J1"
+        ;
+}
+
+    .recado{   
+    grid-area: J1;
+    font-size: 40px;
+    color: black;
+    padding-left: 20px;
+ }
+
+.costa{
+
+    width: 89%;
+}
+
+.costa1{
+    width: 89%;
+
+}
+
+.costa2{
+    width: 570px;
+}
+
+ .costa3{ 
+    padding-top: 30px;
+    height: -70px;
+    background-color:  #e05d77;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    color: #e9e9e9;
+ }
+    
+.textojd{
+
+    color: black;    
+    height: 50px;
+    grid-row: 10px;
+    font-size: 30px;
+}
+
+.textojds{
+    color: black; 
+    height: 50px;
+    grid-row: 10px;
+    font-size: 36px;
+    padding-left: 20px;
+}
+
+
+    .caixa11{ 
+    background-color: #ffffff ;
+    grid-area: J1;
+    font-size: 20px;
+    height: 9vh;
+    width: 97%;
+    padding-left: 41px;         
+}
+
+.cx-31{
+    padding-left: 41%;
+    color: black;
+
+}
+
